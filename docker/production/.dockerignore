@@ -30,3 +30,9 @@ docker-compose*.yml
 *.md
 !LICENSE.md
 docs
+
+bootstrap/cache/*.php
+!bootstrap/cache/.gitignore
+storage/framework/cache/*
+storage/framework/views/*
+storage/framework/sessions/*

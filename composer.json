@@ -83,7 +83,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": ["laravel/boost"]
         },
         "merge-plugin": {
             "include": [

@@ -1,7 +1,5 @@
 <?php
 
-use App\Providers\AppServiceProvider;
-use App\Providers\Filament\AdminPanelProvider;
 use App\Providers\Filament\CustomerPanelProvider;
 use Webkul\Account\AccountServiceProvider;
 use Webkul\Accounting\AccountingServiceProvider;
@@ -33,9 +31,9 @@ use Webkul\Timesheet\TimesheetServiceProvider;
 use Webkul\Website\WebsiteServiceProvider;
 
 return [
-    AppServiceProvider::class,
-    AdminPanelProvider::class,
-    CustomerPanelProvider::class,
+\App\Providers\AppServiceProvider::class,
+    \App\Providers\Filament\AdminPanelProvider::class,
+    \App\Providers\Filament\CustomerPanelProvider::class,
     AccountingServiceProvider::class,
     AccountServiceProvider::class,
     AnalyticServiceProvider::class,
